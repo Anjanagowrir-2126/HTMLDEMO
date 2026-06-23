@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CONTACT US</h1>
+    <p>Email: info@thenewsnetwork.com</p>
+    <p>Phone: +1 (123) 456-7890</p>
+    <p>Address: 123 News Street, Media City, USA</p>
+    <p>We value your feedback and inquiries. Please feel free to reach out to us through any of the above contact methods. Our team will respond to your messages as soon as possible.</p>
+    <form>      
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required placeholder="Enter your name" pattern="[A-Za-z ]+" ><br><br>
+        <label for="tel">Phone number:</label><br>
+        <input type="tel"id="tel" name="number" required placeholder="Enter your phone number" maxlength="10" pattern="[0-9]{10}"><br><br>
+        <label for="message">Type of Communication:</label><br><br>
+        <select id="message" name="message" required>
+            <option value="">Select an option</option>
+            <option value="Sales">Sales</option>
+            <option value="Service">Service</option>
+            <option value="Enquiry">Enquiry</option>
+            <option value="Advertisement">Advertisement</option>
+            <option value="Complaints">Complaints</option>
+        </select><br><br>
+        <label for="description">Description:</label><br>
+        <textarea id="description" name="description" rows="5" cols="40" required></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <footer>
+        <p><strong>The News Network</strong></p>
+        <p>Bringing you the latest news from around the world.</p>
+        <a href="aboutus.html">About Us</a> | <a href="contactus.html">Contact Us</a>
+        <p>&copy; 2026 The News Network | Mail to:
+        <a href="mailto:info@thenewsnetwork.com">info@thenewsnetwork.com</a>    
+        </p>
+    </footer>
+</body>
+</html>
